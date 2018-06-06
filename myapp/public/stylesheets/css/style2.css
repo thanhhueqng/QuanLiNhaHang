@@ -383,7 +383,7 @@ span.logo-clr{
     display: inline-block;
 }
 .w3-search-box input[type="submit"] {
-    background: url(../images/search.png)no-repeat;
+    background: url(../../images/search.png)no-repeat;
     width: 20px;
     height: 20px;
     display: inline-block;

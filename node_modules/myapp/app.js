@@ -12,12 +12,12 @@ mongoose.connect('mongodb://localhost/QUAN_LI_NHA_HANG');
 app.engine('hbs', expressHbs({
   extname: 'hbs', 
   defaultLayout: 'layout', 
-  layoutsDir: __dirname + '/views/layouts',
+ 
   partialsDir  : [
       //  path to your partials
       __dirname + '/views/partial',
       
-  ],
+  ]
 }));
 //app.set('views',__dirname +'../views/admin');
 //var viewpath = path.join(__dirname, 'views');
